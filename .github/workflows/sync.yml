@@ -2,7 +2,7 @@ name: https://docs.google.com/spreadsheets/d/e/2PACX-1vSX_bFaT1mjMk4R4Sds1ipKxqe
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 
 jobs:
